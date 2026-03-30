@@ -4,7 +4,9 @@ string input = Console.ReadLine();
 try
 {
     int number = int.Parse(input);
-    Console.WriteLine($"You entered: {number}");
+    int result = StatisticsHelper.Square(number);
+
+    Console.WriteLine($"Square: {result}");
 }
 catch
 {
