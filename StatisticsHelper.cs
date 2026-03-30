@@ -37,7 +37,7 @@ public static class StatisticsHelper
 public static int CalculateMin(int[] values)
 {
     if (values.Length == 0)
-        return 0;
+        return -1;
 
     int min = values[0];
     foreach (int value in values)
