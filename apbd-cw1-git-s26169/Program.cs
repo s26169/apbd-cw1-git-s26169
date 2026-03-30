@@ -1,5 +1,12 @@
 Console.WriteLine("Enter a number:");
 string input = Console.ReadLine();
-int number = int.Parse(input);
 
-Console.WriteLine($"You entered: {number}");
+try
+{
+    int number = int.Parse(input);
+    Console.WriteLine($"You entered: {number}");
+}
+catch
+{
+    Console.WriteLine("Invalid input!");
+}
