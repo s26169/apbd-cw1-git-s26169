@@ -1,1 +1,2 @@
-APBD Zadanie 1
+Merge vs rebase
+Merge zachowuje pełną historię rozgałęzień i zwykle tworzy merge commit. Rebase przepisuje historię gałęzi tak, jakby zmiany były tworzone od nowszej wersji `main`, dzięki czemu historia jest liniowa i czytelniejsza.
